@@ -106,9 +106,9 @@ function staticHead(tabName) {
 
   let newHtml = `<header>
       <img
-        id="skillseba"
-        src="images/skillseba.png"
-        alt="skillseba Logo"
+        id="rafism"
+        src="images/rafism.png"
+        alt="Rafism Logo"
         height="20px"
       />
       <div id="header-logs">
