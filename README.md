@@ -1,2 +1,2 @@
-# rafitism
+# RAFism
 My Personal Blog.
