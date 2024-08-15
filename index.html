@@ -3,25 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>rafitism</title>
+    <title>SkillSeba</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="scripts.js"></script>
   </head>
   <body>
     <header>
-      <img
-        id="raflogo"
-        src="images/rafitism.png"
-        alt="RAFITISM Logo"
-        height="25px"
-      />
+      <img id="skillseba" src="images/skillseba.png" alt="skillseba Logo" />
       <div id="header-logs">
         <div id="head-search-bar">
-          <img
-            src="images/search.svg"
-            alt="search icon"
-            height="10px"
-            id="search-icon"
-          />
+          <img src="images/search.svg" alt="search icon" id="search-icon" />
           <input
             type="search"
             name="searchbar"
@@ -29,18 +20,26 @@
             placeholder="Search"
           />
         </div>
-
         <nav>
-          <a class="navlink1" href="/index.html">Home</a>
-          <a class="navlink" href="/aboutus.html">About Us</a>
-          <a class="navlink" href="/services.html">Services</a>
-          <a class="navlink" href="/portfolio.html">Portfolio</a>
-          <a class="navlink" href="/pricing.html">Pricing</a>
-          <a class="navlink" href="/contactus.html">Contact Us</a>
+          <a class="navlink1" href="index.html">Home</a>
+          <a class="navlink" href="#" onclick="aboutus()">About Us</a>
+          <a class="navlink" href="#" onclick="services()">Services</a>
+          <a class="navlink" href="#" onclick="portfolio()">Portfolio</a>
+          <a class="navlink" href="#" onclick="pricing()">Pricing</a>
+          <a class="navlink" href="#" onclick="conactus()">Contact Us</a>
         </nav>
       </div>
     </header>
-    <main></main>
+    <main>
+      <div class="top-section">
+        <div class="top-text-div">
+          <span id="toptext">
+            I've created this web page to express my theological evaluation
+            based on the monotheism.
+          </span>
+        </div>
+      </div>
+    </main>
     <footer></footer>
   </body>
 </html>
