@@ -109,7 +109,7 @@ function staticHead(tabName) {
         id="rafism"
         src="images/rafism.png"
         alt="Rafism Logo"
-        height="20px"
+        height="30px" href="https://mdfar.github.io/index.html"
       />
       <div id="header-logs">
         <div id="head-search-bar">
