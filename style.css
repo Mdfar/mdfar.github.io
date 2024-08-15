@@ -4,6 +4,8 @@
 }
 
 body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  overflow-y: hidden;
 }
 
 header {
@@ -12,13 +14,13 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 10px;
   padding-left: 25px;
   box-shadow: 0 5px 5px #ddd;
 }
 
-#raflogo {
+#skillseba {
   padding: 10px 0;
+  height: 20px;
 }
 
 #header-logs {
@@ -43,12 +45,13 @@ header {
   background-color: transparent;
   border: none;
   padding-left: 10px;
-  height: 30px;
+  height: 25px;
 }
 
 #head-search-bar #search-icon {
   padding: 5px;
   margin-left: 5px;
+  height: 10px;
 }
 
 nav {
@@ -69,7 +72,7 @@ nav {
 
   align-content: center;
 
-  height: 45px;
+  height: 35px;
   margin: 1px;
   padding: 0 10px;
 }
@@ -100,17 +103,138 @@ nav {
 main {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(170, 75, 106, 0.8),
-      rgba(130, 97, 135, 0.8),
-      rgba(118, 102, 136, 0.8),
-      rgba(99, 115, 143, 0.8),
-      rgba(78, 128, 154, 0.8),
-      rgba(59, 141, 153, 0.8)
-    ),
-    url(images/rafitism.png);
-  background-repeat: no-repeat;
-  background-position: center;
+  /* background-image: url(images/5259223.jpg); */
+  display: flex;
+  flex-direction: column;
   height: 100vh;
 }
+.top-section {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#myphoto {
+  height: 100%;
+  margin: 20px;
+  box-shadow: 0 10px 10px #02837d;
+  /* padding: 5px 10px; */
+}
+
+.top-text-div {
+  background-color: #f9f9f9;
+  padding: 30px;
+  margin: 20px;
+  border: 2px solid #b5b4b4;
+  border-radius: 5px;
+  /* box-shadow: 0 10px 10px #888788; */
+  width: 100%;
+}
+
+#contactForm1 {
+  background-color: #02837d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  padding-top: 10px;
+  /* height: 50vh; */
+}
+
+#contactForm2 {
+  background-color: #02837d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  padding-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.inputs {
+  background-color: #eee;
+  margin: 5px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 220px;
+  border-radius: 20px;
+}
+.inputfield {
+  background-color: transparent;
+  border: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 5px;
+}
+
+#enterMsg {
+  background-color: #eee;
+  margin: 5px;
+  padding: 10px;
+  width: 220px;
+  border-radius: 20px 20px 0;
+  resize: vertical;
+}
+
+#submit {
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(164, 186, 1, 0.5);
+  color: white;
+  font-weight: 600;
+  width: 240px;
+}
+
+#submit:hover {
+  background-color: rgba(164, 186, 1, 0.8);
+  cursor: pointer;
+}
+
+/* @media screen and (max-width: 440px) {
+  header {
+    height: 140px;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+  }
+  nav {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .navlink1,
+  .navlink {
+    height: 40px;
+    width: 70px;
+    margin: 5px;
+  }
+  #head-search-bar {
+    width: 60vw;
+  }
+} */
+
+/* @media screen and (max-width: 360px) {
+  header {
+    height: 140px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  nav {
+    display: block;
+  }
+} */
